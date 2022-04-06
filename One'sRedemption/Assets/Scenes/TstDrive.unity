@@ -6127,7 +6127,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1455392421
@@ -6188,12 +6187,6 @@ MeshFilter:
   m_Mesh: {fileID: 1110473373}
 --- !u!23 &1455392425
 MeshRenderer:
-=======
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!850595691 &1238915893
-LightingSettings:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6721,7 +6714,7 @@ Transform:
   - {fileID: 1909180010}
   - {fileID: 1763724785}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1763724784
 GameObject:
@@ -88890,11 +88883,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
   m_Name: pb_Mesh17382
-=======
-  m_Name: pb_Mesh18484
->>>>>>> Stashed changes
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -89393,7 +89382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4050002179903241098, guid: 89cebd28d53c42540a781929977f9b19, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4050002179903241098, guid: 89cebd28d53c42540a781929977f9b19, type: 3}
       propertyPath: m_LocalPosition.x

@@ -28,18 +28,10 @@ public class PlayerMovement : MonoBehaviour
     {
         if (inputVector.magnitude > 0 && canMove)
         {
-           myRb.MovePosition(myRb.position +
-                                   (transform.right * inputVector.x +
-                                    transform.forward * inputVector.z) *
-                                    moveSpeed * Time.deltaTime);
-            anim.SetFloat("velX", inputVector.x);
-            anim.SetFloat("velY", inputVector.z);
-
-        }
-        else
-        {
-            anim.SetFloat("velX", 0);
-            anim.SetFloat("velY", 0);
+            myRb.MovePosition(myRb.position +
+                                    (transform.right * inputVector.x +
+                                     transform.forward * inputVector.z) *
+                                     moveSpeed * Time.deltaTime);
 
         }
     }  
